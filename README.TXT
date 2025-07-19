@@ -2,6 +2,20 @@
 = fbDOOM =
 ================
 
+
+sudo apt -y install libsdl1.2-dev
+
+cd fbDOOM/fbdoom
+make
+
+fbdoom -iwad ./doom.wad -scaling 2
+
+
+
+
+
+
+
 Adaptation of the original DOOM
 to be easily portable to framebuffer devices with minimal depenencies.
 Runs on:

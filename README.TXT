@@ -4,7 +4,7 @@
 
 
 sudo apt -y install libsdl1.2-dev
-
+git clone https://github.com/markbirss/fbDOOM.git
 cd fbDOOM/fbdoom
 make
 
